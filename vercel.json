@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      { "source": "/", "destination": "/login.html", "permanent": true },
+      { "source": "/login", "destination": "/login.html", "permanent": true },
+      { "source": "/signup", "destination": "/signup.html", "permanent": true },
+      { "source": "/reset", "destination": "/resetpassword.html", "permanent": true }
+    ]
+  }
+  
