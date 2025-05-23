@@ -10,7 +10,8 @@ export default defineConfig({
       input:{
         index:"index.html",
         login:"login.html",
-        signup:"signup.html"
+        signup:"signup.html",
+        resets:"resetpassword.html"
       }
     }
   }

@@ -1,25 +1,33 @@
-<script>
-
-</script>
+<script></script>
 <template>
-    <div class=" w-screen h-screen flex items-center justify-center bg-[#e5e5e5] text-black">
-        <div class="w-1/3 min-h-96 border border-black/15 rounded-2xl bg-white">
-            <h1 class="text-center font-inter font-bold font mb-8 mt-[70px] text-9xl ">SIGN UP</h1>
-            <form>
-                <div>
-                    <input type="text" name="username" id="username" placeholder="USERNAME" class="mx-auto font-inter font-bold  bg-[#D9D9D9] placeholder-black/80 outline-0 block p-2 rounded-full  text-center w-80 mb-4">
-                </div>
-                <div>
-                    <input type="email" name="email" id="email" placeholder="EMAIL" class="mx-auto font-inter font-bold  bg-[#D9D9D9] placeholder-black/80 outline-0 block p-2 rounded-full  text-center w-80 mb-4">
-                </div>
-                <div>
-                    <input type="password" name="password" id="password" placeholder="PASSWORD" class="mx-auto font-inter font-bold  bg-[#D9D9D9] placeholder-black/80 outline-0 block p-2 rounded-full  text-center w-80 mb-4">
-                </div>
-                <div>
-                    <input type="password" name="password" id="password" placeholder="CONFIRM PASSWORD" class="mx-auto font-inter font-bold  bg-[#D9D9D9] placeholder-black/80 outline-0 block p-2 rounded-full  text-center w-80 mb-4">
-                </div>
-                <input type="submit" class="w-32 bg-[#43D1ED] rounded-full mx-auto font-inter font-bold shadow block mt-8 mb-[87px] text-xl py-1 text-white" value="Login">
-            </form>
+    <div class="bg-white max-w-[500px] px-10 py-4 justify-center text-black rounded-[16px]">
+    <h1 class="font-inter text-center font-bold text-6xl">Sign Up</h1>
+    <p class="text-sm  text-center mb-10 mt-2">Already have an account? <span class="text-decoration-line: underline text-gray-600">Login</span>
+    </p>
+        <div class="w-full flex gap-3 items-center justify-center">
+            <div class="w-1/2 ">
+                <p class="font-inter font-light">First Name</p>
+                <input type="text" name="firstName" id="firstName" class="ring ring-black/30 p-2 w-full  rounded-sm">
+            </div>
+            <div class="w-1/2">
+                <p class="font-inter font-light">Last Name</p>
+                <input type="text" name="firstName" id="firstName" class="ring ring-black/30 p-2 w-full  rounded-sm">
+            </div>
+        </div>
+        <div class="w-full mt-6">
+            <p class="font-inter font-light">Email</p>
+            <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
+        </div>
+        <div class="w-full mt-6">
+            <p class="font-inter text-sm ">Username  <span class="font-light text-gray-600">(only letters, numbers and underscores)</span></p>
+            <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
+        </div>
+        <div class="w-full mt-6">
+            <p class="font-inter text-sm ">Password  <span class="font-light text-gray-600 ">(min. 8 char)</span></p>
+            <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
+        </div>
+        <div class="w-full mt-6">
+            <input type="submit" value="Join" class="bg-[#262626] w-full p-2 rounded-sm text-white">
         </div>
     </div>
 </template>
