@@ -1,4 +1,6 @@
-<script></script>
+<script>
+
+</script>
 <template>
     <div class="bg-white max-w-[500px] px-10 py-4 justify-center text-black rounded-[16px]">
     <h1 class="font-inter text-center font-bold text-6xl">Sign Up</h1>
@@ -19,11 +21,11 @@
             <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
         </div>
         <div class="w-full mt-6">
-            <p class="font-inter text-sm ">Username  <span class="font-light text-gray-600">(only letters, numbers and underscores)</span></p>
+            <p class="font-inter text-sm ">Username <span class="font-light text-gray-600">(only letters, numbers and underscores)</span></p>
             <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
         </div>
         <div class="w-full mt-6">
-            <p class="font-inter text-sm ">Password  <span class="font-light text-gray-600 ">(min. 8 char)</span></p>
+            <p class="font-inter text-sm ">Password <span class="font-light text-gray-600 ">(min. 8 char)</span></p>
             <input type="text" class="w-full ring p-2 rounded-sm ring-black/30">
         </div>
         <div class="w-full mt-6">
